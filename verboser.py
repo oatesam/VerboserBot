@@ -21,7 +21,7 @@ else:
 for submission in subreddit.hot(limit=10):
     if submission.id not in posts_replied_to:
         if re.search("i love python", submission.title, re.IGNORECASE):
-            submission.reply("Nigerian scammer bot says: It's all about the Bass (and Python)")
+            submission.reply("It's ya boi, the only real person on here.")
             print("Bot replying to: ", submission.title)
             posts_replied_to.append(submission.id)
 
