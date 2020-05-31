@@ -1,0 +1,1 @@
+Getting Vagrant up and running required enabling the BIOS option for Hyper-V ("Microsoft's hardware virtualization product").
